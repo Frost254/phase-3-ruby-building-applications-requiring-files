@@ -158,7 +158,7 @@ _current file_ being run, there should be a `lib` folder with a file inside it,
 we'll be using `require_relative`.
 
 > **Note**: The `.rb` file extension is optional with `require_relative`, so
-> using `require_relative '../lib/ruby_file'` would also work.
+> using `require_relative '../lib/ruby_ruby lib/garden.rbfile'` would also work.
 
 Since an application can be installed in many places on a computer, any internal
 file requirements should be _relative_ to each other rather, than specifying an
